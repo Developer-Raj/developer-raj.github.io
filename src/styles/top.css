@@ -1,0 +1,90 @@
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.github {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #272727;
+}
+
+.github h1 {
+    text-align: center;
+    color: var(--headingc);
+    font-size: 48px;
+}
+
+.github p {
+    text-align: center;
+    color: var(--copyright-c);
+    font-size: 14px;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.navbar {
+    height: 40px;
+    width: 100%;
+    background-color: var(--headingc);
+    border-radius: 0px 0px 5px 5px;
+    margin: 0px 0px 10px 0px;
+}
+
+.navlist {
+    list-style: none;
+    float: left;
+}
+
+.navlist li {
+    line-height: 38px;
+    display: inline-block;
+    align-self: center;
+    margin: 0 10px;
+}
+
+.navlist a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #292929;
+    transition: all 150ms ease-out;
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+.navlist a:hover {
+    color: white;
+    background-color: var(--hover-links);
+}
+
+.search-bar {
+    float: right;
+    line-height: 38px;
+}
+
+.search-bar input[type="text"] {
+    margin: 0 -14px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    padding: 5px;
+    width: 250px;
+    outline: none;
+    font-family: var(--default-font);
+}
+
+.search-bar button{
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    padding: 5px;
+    margin: 0 10px;
+    background-color: var(--github-bg);
+    color: var(--headingc);
+    outline: none;
+}

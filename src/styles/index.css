@@ -1,0 +1,16 @@
+@import "./var.css";
+@import "./top.css";
+
+* {
+    user-select: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--default-font);
+}
+
+body {
+    background-color: var(--dark-bg);
+    scroll-behavior: smooth;
+}
+

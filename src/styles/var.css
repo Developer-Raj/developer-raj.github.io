@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime|Roboto:400,500,700&display=swap');
+
+:root {
+    --github-bg: #272727;
+    --dark-bg: #191919; /* Dark background color */
+    --light-bg: #f2f2f2; /* Light background color */
+    --copyright-c: #1caa1c;
+    --headingc: #25df25; /* Default heading color */
+    --paragraphc: #f2f2f2; /* Default paragraph color */
+    --default-font: "Roboto", san-serif;
+    --code-font: "Courier Prime", monospace; /* Fonts for code texts */
+    --code-c: #069e01;
+    --hover-links: #27382a;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #080808;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--headingc);
+    box-shadow: inset 0px 0px 5px 0px rgb(22, 22, 22);
+}
