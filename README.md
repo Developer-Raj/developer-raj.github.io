@@ -1,3 +1,1 @@
-#### Developer-Raj [in-progress|##-------------------|]
-
-<progress></progress>
+#### Developer-Raj [in-progress`|##-------------------|`]
