@@ -2,7 +2,7 @@
 > **Note** Site is still in development, if you face with any issues please tags on here > [issue](https://github.com/Developer-Raj/developer-raj.github.io/issues)
 
 ***
-### Updates
+### Development-Timeline
 - [15/1/2020].
   - Added header with navigation bar and links
   - Addes search bar into the navigation bar
