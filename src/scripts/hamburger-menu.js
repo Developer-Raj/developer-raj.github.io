@@ -8,7 +8,6 @@ window.onload = function() {
             document.querySelector(".navbar").style.height = "0px";
             is_clicked = false;
         } else {
-            console.log("working");
             is_clicked = true;
             document.querySelector(".navbar").style.height = "211px";
         }
