@@ -1,5 +1,6 @@
 @import "./var.css";
 @import "./top.css";
+@import "./responsive.css";
 
 * {
     user-select: none;
@@ -12,5 +13,6 @@
 body {
     background-color: var(--dark-bg);
     scroll-behavior: smooth;
+    height: 1000px;
 }
 

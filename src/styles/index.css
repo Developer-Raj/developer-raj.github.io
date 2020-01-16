@@ -1,5 +1,6 @@
 @import "./var.css";
 @import "./top.css";
+@import "./responsive.css";
 
 * {
     user-select: none;
@@ -7,10 +8,12 @@
     margin: 0;
     box-sizing: border-box;
     font-family: var(--default-font);
+    transition: all 150ms ease-out;
 }
 
 body {
     background-color: var(--dark-bg);
     scroll-behavior: smooth;
+    height: 1000px;
 }
 

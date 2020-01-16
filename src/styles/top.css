@@ -3,6 +3,10 @@
     max-width: 800px;
 }
 
+.hamburger-menu {
+    display: none;
+}
+
 .github {
     max-width: 1000px;
     margin: 0 auto;

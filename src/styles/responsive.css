@@ -1,0 +1,46 @@
+@media screen and (max-width: 460px) {
+
+    .hamburger-menu {
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        cursor: pointer;
+        user-select: none;
+        left: 0;
+    }
+
+    .hamburger-menu .bar1, .bar2, .bar3 {
+        height: 5px;
+        width: 30px;
+        background-color: var(--headingc);
+        margin: 2.5px;
+        border-radius: 5px;
+    }
+
+    .github h1 {
+        font-size: 30px;
+    }
+    
+    .github p {
+        font-size: 10px;
+    }
+
+    .navbar {
+        height: 0px;
+        overflow: hidden;
+        display: inline-grid;
+        grid-template-rows: auto;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .navlist li {
+        display: block;
+        margin: 0px;
+    }
+}
