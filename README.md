@@ -1,5 +1,5 @@
 # Developer-Raj
-> **Note** Site is still in development, if you face with any issues please tags on here > [issue](https://github.com/Developer-Raj/developer-raj.github.io/issues)
+> **Note** - Site is still in development, if you face with any issues please tags on here > [issue](https://github.com/Developer-Raj/developer-raj.github.io/issues)
 
 ***
 ### Development-Timeline
