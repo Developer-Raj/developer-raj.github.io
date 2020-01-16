@@ -1,5 +1,4 @@
-@media screen and (max-width: 460px) {
-
+@media screen and (max-width: 460px){
     .hamburger-menu {
         position: absolute;
         height: 50px;
@@ -12,17 +11,15 @@
         cursor: pointer;
         user-select: none;
         left: 0;
-        transform: scale(0.8);
     }
-
+    
     .hamburger-menu .bar1, .bar2, .bar3 {
-        height: 5px;
-        width: 30px;
+        height: 3px;
+        width: 25px;
         background-color: var(--headingc);
-        margin: 2.5px;
-        border-radius: 5px;
+        margin: 3px;
     }
-
+    
     .github h1 {
         font-size: 30px;
     }
@@ -30,7 +27,7 @@
     .github p {
         font-size: 10px;
     }
-
+    
     .navbar {
         height: 0px;
         overflow: hidden;
@@ -39,7 +36,7 @@
         justify-content: center;
         text-align: center;
     }
-
+    
     .navlist li {
         display: block;
         margin: 0px;
