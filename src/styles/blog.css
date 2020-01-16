@@ -8,6 +8,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: var(--default-font);
+    transition: all 150ms ease-out;
 }
 
 body {
