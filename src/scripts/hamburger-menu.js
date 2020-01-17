@@ -14,11 +14,12 @@ function ham() {
 
 hamBtn.onclick = () => {
     ham();
-    window.onresize = () => {
-        if(window.screen.width <= 460){
-            navbar.style.height = "0px";
-        } else {
-            navbar.style.height = "50px";
-        }
+}
+
+window.onresize = () => {
+    if(window.screen.width < 470){
+        navbar.style.height = "0px";
+    } else {
+        navbar.style.height = "50px";
     }
 }

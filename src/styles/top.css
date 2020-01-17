@@ -87,10 +87,6 @@
     width: 150px;
 }
 
-.search-bar input[type="text"]:focus {
-    width: 250px;
-}
-
 .search-bar button{
     border-radius: 5px;
     border: none;
@@ -100,7 +96,7 @@
     background-color: var(--headingc);
     outline: none;
     color: #272727;
-    transition: all 50ms ease-out;
+    transition: all 25ms ease-out;
     border: 1px solid var(--github-bg);
 }
 
