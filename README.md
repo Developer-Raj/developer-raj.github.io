@@ -1,4 +1,4 @@
-# DEVELOPER-RAJ ![Website-Status](https://img.slides.io/badge/website-up-brightgreen?style=plastic&logo=github) ![build-version](https://img.slides.io/badge/build-v1.0.1?style=plastic&logo=github)
+# DEVELOPER-RAJ ![Website-status](https://img.shields.io/badge/website-up-color?style=plastic&logo=github) ![Website-Build-Version](https://img.shields.io/badge/Build-v1.0.0-brightgreen?style=plastic&logo=github)
 > **Note** - Site is still in development, if you face with any issues please tags us on here **>** [issue](https://github.com/Developer-Raj/developer-raj.github.io/issues)
 
 ***
