@@ -13,8 +13,8 @@
   - Added responsiveness to header as well as navbar
 
 - **[17/1/2020]**&
- - Added favicon to website
- - Make few changes to code
+  - Added favicon to website
+  - Make few changes to code
 
 - **[27/3/2020]**
   - Added site loader
