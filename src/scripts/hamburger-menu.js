@@ -1,5 +1,7 @@
 var hamBtn = document.querySelector(".hamburger-menu");
 var navbar = document.querySelector(".navbar");
+var header = document.querySelector(".header");
+var ham_bar = document.querySelectorAll(".b");
 var is_clicked = false;
 
 function ham() {
@@ -8,7 +10,7 @@ function ham() {
         navbar.style.height = "0px";
     } else{
         is_clicked = true;
-        navbar.style.height = "211px";
+        navbar.style.cssText = "height: 260px;";
     }
 }
 
@@ -17,7 +19,7 @@ hamBtn.onclick = () => {
 }
 
 window.onresize = () => {
-    if(window.screen.width < 470){
+    if(window.screen.width <= 640){
         navbar.style.height = "0px";
     } else {
         navbar.style.height = "50px";

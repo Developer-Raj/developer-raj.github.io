@@ -1,0 +1,37 @@
+@import "./var.css";
+@import "./top.css";
+@import "./responsive.css";
+
+* {
+    user-select: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--default-font);
+    transition: all 150ms ease-out;
+}
+
+body {
+    background-color: var(--dark-bg);
+    scroll-behavior: smooth;
+    height: 1000px;
+}
+
+.main {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #202020;
+    transform: translateY(-50px);
+    padding: 40px 0px 0px 0px;
+    position: relative;
+    height: 100%;
+}
+
+.c {
+    background-color: var(--hover-links);
+    color: white !important;
+}
+
+.c:hover {
+    box-shadow: 0px 0px 10px var(--hover-links);
+}

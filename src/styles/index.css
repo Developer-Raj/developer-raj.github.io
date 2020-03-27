@@ -8,12 +8,315 @@
     margin: 0;
     box-sizing: border-box;
     font-family: var(--default-font);
-    transition: all 150ms ease-out;
 }
 
 body {
     background-color: var(--dark-bg);
-    scroll-behavior: smooth;
     height: 1000px;
 }
 
+.main {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #202020;
+    transform: translateY(-60px);
+    padding: 60px 10px 10px 10px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.h {
+    background-color: var(--hover-links);
+    color: white !important;
+}
+
+.h:hover {
+    box-shadow: 0px 0px 10px 0px var(--hover-links);
+}
+
+/* Section container starts from here */
+.section-container {
+    margin: 0px 0px 0px 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-gap: 10px 10px;
+}
+/* Section container ends here */
+
+/* introduction section styling starts from here */
+.introductionContainer {
+    width: 100%;
+    height: 100%;
+    max-height: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #191919;
+    /* margin: 0px 10px 10px 0px; */
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.hire {
+    position: absolute;
+    background-color: #1a1a1a;
+    opacity: 0%;
+    width: 75px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-out 150ms;
+}
+
+.hire:hover {
+    opacity: 90%;
+}
+
+.hire a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: whitesmoke;
+    transition: all ease-out 150ms;
+}
+
+.hire a:hover {
+    color: var(--headingc);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.profile-logo img {
+    float: left;
+    width: 75px;
+    height: 70px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px 0px #191919;
+}
+
+.profile-name {
+    width: 75px;
+}
+
+.profile-name p {
+    float: left;
+    margin: 10px 15px 15px 18px;
+    color: whitesmoke;
+    font-weight: 500;
+    text-align: center;
+}
+
+.p-title h3 {
+    position: relative;
+    left: 10px;
+    color: whitesmoke;
+}
+
+.p-title p {
+    position: relative;
+    left: 10px;
+    font-size: 10px;
+    color: #a3a3a3;
+}
+
+.profile-description {
+    padding: 10px;
+}
+
+.profile-description  p{
+    position: relative;
+    width: auto
+    top: 10px;
+    left: 10px;
+    font-size: 11px;
+    color: #a3a3a3;
+    font-size: 11px;
+    text-align: justify;
+    clear: right;
+}
+
+/* introduction section styling ends here */
+
+/* Skills section starts from here */
+.skillsContainer {
+    width: 100%;
+    background-color: #191919;
+    border-radius: 5px;
+    padding: 10px;
+    grid-column-start: 3;
+    grid-column-end: 30;
+    /* margin: 0px 0px 10px 0px; */
+}
+.skillsTitle h3 {
+    max-width: 100px;
+    margin: 0px auto;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.s-adobeXD span {
+    color: #a3a3a3;
+    font-size: 13px;
+}
+
+.s-adobeXD .bar {
+    height: 10px;
+    width: 100%;
+    background-color: #2b2b2b;
+    border-radius: 5px;
+    margin: 5px 0px 10px 0px 
+}
+
+.s-adobeXD .progress {
+    height: 10px;
+    width: 98%;
+    background: linear-gradient(180deg, rgb(63, 250, 63), rgb(24, 85, 24));
+    border-radius: 5px;
+}
+
+.s-adobeIllustrator span {
+    color: #a3a3a3;
+    font-size: 13px;
+}
+
+.s-adobeIllustrator .bar {
+    height: 10px;
+    width: 100%;
+    background-color: #2b2b2b;
+    border-radius: 5px;
+    margin: 5px 0px 10px 0px 
+}
+
+.s-adobeIllustrator .progress {
+    height: 10px;
+    width: 65%;
+    background: linear-gradient(180deg, rgb(63, 250, 63), rgb(24, 85, 24));
+    border-radius: 5px;
+}
+
+.s-adobePhotoshop span {
+    color: #a3a3a3;
+    font-size: 13px;
+}
+
+.s-adobePhotoshop .bar {
+    height: 10px;
+    width: 100%;
+    background-color: #2b2b2b;
+    border-radius: 5px;
+    margin: 5px 0px 10px 0px 
+}
+
+.s-adobePhotoshop .progress {
+    height: 10px;
+    width: 85%;
+    background: linear-gradient(180deg, rgb(63, 250, 63), rgb(24, 85, 24));
+    border-radius: 5px;
+}
+
+.s-HTML5 span {
+    color: #a3a3a3;
+    font-size: 13px;
+}
+
+.s-HTML5 .bar {
+    height: 10px;
+    width: 100%;
+    background-color: #2b2b2b;
+    border-radius: 5px;
+    margin: 5px 0px 10px 0px 
+}
+
+.s-HTML5 .progress {
+    height: 10px;
+    width: 100%;
+    background: linear-gradient(180deg, rgb(63, 250, 63), rgb(24, 85, 24));
+    border-radius: 5px;
+}
+
+
+.s-CSS3 span {
+    color: #a3a3a3;
+    font-size: 13px;
+}
+
+.s-CSS3 .bar {
+    height: 10px;
+    width: 100%;
+    background-color: #2b2b2b;
+    border-radius: 5px;
+    margin: 5px 0px 10px 0px 
+}
+
+.s-CSS3 .progress {
+    height: 10px;
+    width: 95%;
+    background: linear-gradient(180deg, rgb(63, 250, 63), rgb(24, 85, 24));
+    border-radius: 5px;
+}
+
+.s-js span {
+    color: #a3a3a3;
+    font-size: 13px;
+}
+
+.s-js .bar {
+    height: 10px;
+    width: 100%;
+    background-color: #2b2b2b;
+    border-radius: 5px;
+    margin: 5px 0px 10px 0px 
+}
+
+.s-js .progress {
+    height: 10px;
+    width: 55%;
+    background: linear-gradient(180deg, rgb(63, 250, 63), rgb(24, 85, 24));
+    border-radius: 5px;
+}
+
+.s-jQuery span {
+    color: #a3a3a3;
+    font-size: 13px;
+}
+
+.s-jQuery .bar {
+    height: 10px;
+    width: 100%;
+    background-color: #2b2b2b;
+    border-radius: 5px;
+    margin: 5px 0px 10px 0px 
+}
+
+.s-jQuery .progress {
+    height: 10px;
+    width: 99%;
+    background: linear-gradient(180deg, rgb(63, 250, 63), rgb(24, 85, 24));
+    border-radius: 5px;
+}
+
+.s-PHP span {
+    color: #a3a3a3;
+    font-size: 13px;
+}
+
+.s-PHP .bar {
+    height: 10px;
+    width: 100%;
+    background-color: #2b2b2b;
+    border-radius: 5px;
+    margin: 5px 0px 10px 0px 
+}
+
+.s-PHP .progress {
+    height: 10px;
+    width: 10%;
+    background: linear-gradient(180deg, rgb(63, 250, 63), rgb(24, 85, 24));
+    border-radius: 5px;
+}
+
+
+
+/* Skills section ends here */

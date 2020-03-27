@@ -1,0 +1,163 @@
+@import './var.css';
+
+.site-loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #191919;
+    z-index: 999;
+    display: block;
+    transition: all ease-out 1000ms;
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dots1, .dots2, .dots3, .dots4, .dots5 {
+    width: 10px;
+    height: 10px;
+    margin: 15px;
+    border-radius: 50%;
+    background-color: limegreen;
+}
+
+.dots1 {
+    animation-name: dot1;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 75ms;
+}
+
+.dots2 {
+    animation-name: dot2;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 150ms;
+}
+
+.dots3 {
+    animation-name: dot3;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 300ms;
+}
+
+.dots4 {
+    animation-name: dot4;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 400ms;
+}
+
+.dots5 {
+    animation-name: dot5;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 500ms;
+}
+
+@keyframes dot1 {
+    0%{
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(0px, -25px) scale(1.5);
+        box-shadow: 0px 0px 5px 0px limegreen;
+    }
+    75% {
+        transform: translateY(-50px) scale(2);
+        box-shadow: 0px 0px 10px 0px limegreen;
+    }
+    100%{
+        transform: translateY(0px) scale(1);
+        box-shadow: 0px 0px 0px 0px limegreen;
+    }
+}
+
+@keyframes dot2 {
+    0%{
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(0px, -25px) scale(1.5);
+        box-shadow: 0px 0px 5px 0px limegreen;
+    }
+    75% {
+        transform: translateY(-50px) scale(2);
+        box-shadow: 0px 0px 10px 0px limegreen;
+    }
+    100%{
+        transform: translateY(0px) scale(1);
+        box-shadow: 0px 0px 0px 0px limegreen;
+    }
+}
+
+@keyframes dot3 {
+    0%{
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(0px, -25px) scale(1.5);
+        box-shadow: 0px 0px 5px 0px limegreen;
+    }
+    75% {
+        transform: translateY(-50px) scale(2);
+        box-shadow: 0px 0px 10px 0px limegreen;
+    }
+    100%{
+        transform: translateY(0px) scale(1);
+        box-shadow: 0px 0px 0px 0px limegreen;
+    }
+}
+
+@keyframes dot4 {
+    0%{
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(0px, -25px) scale(1.5);
+        box-shadow: 0px 0px 5px 0px limegreen;
+    }
+    75% {
+        transform: translateY(-50px) scale(2);
+        box-shadow: 0px 0px 10px 0px limegreen;
+    }
+    100%{
+        transform: translateY(0px) scale(1);
+        box-shadow: 0px 0px 0px 0px limegreen;
+    }
+}
+
+@keyframes dot5 {
+    0%{
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(0px, -25px) scale(1.5);
+        box-shadow: 0px 0px 5px 0px limegreen;
+    }
+    75% {
+        transform: translateY(-50px) scale(2);
+        box-shadow: 0px 0px 10px 0px limegreen;
+    }
+    100%{
+        transform: translateY(0px) scale(1);
+        box-shadow: 0px 0px 0px 0px limegreen;
+    }
+}
