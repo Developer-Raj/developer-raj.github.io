@@ -12,7 +12,7 @@
   - Added hamburger menu
   - Added responsiveness to header as well as navbar
 
-- **[17/1/2020]**&
+- **[17/1/2020]**
   - Added favicon to website
   - Make few changes to code
 
