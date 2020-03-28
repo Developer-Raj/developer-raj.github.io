@@ -71,6 +71,11 @@
 }
 
 @media screen and (max-width: 660px) {
+
+    .main {
+        padding: 38px 10px 10px 10px !important;
+    }
+
     .profile-name p {
         float: left;
         width: 50px;
@@ -95,6 +100,11 @@
 }
 
 @media screen and (max-width: 500px) {
+
+    .main {
+        padding: 38px 10px 10px 10px !important;
+    }
+
     .section-blog-container .blog-post {
         width: 100% !important;
         height: 100px !important;
@@ -123,5 +133,9 @@
         font-size: 9px !important;
         padding: 5px !important;
         height: 50px !important;
+    }
+
+    .main {
+        padding: 38px 10px 10px 10px !important;
     }
 }
