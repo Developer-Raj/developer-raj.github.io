@@ -11,12 +11,11 @@ window.onload = () => {
 
     setInterval(()=>{
         loader.style.opacity = "0";
-        
-    }, 2500)
+    }, 500)
     setInterval(()=>{
         loader.style.display = "none";
         body.style.overflow = "auto";
-        body.style.height = "1000px";
-    }, 3000);
+        body.style.height = "100vh";
+    }, 1000);
 }
 
