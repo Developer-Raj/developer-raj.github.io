@@ -54,18 +54,18 @@
 
 @media screen and (max-width: 880px){
     .introductionContainer {
-        grid-column: 1 / span 1 !important;
+        grid-column: 1 / span 2 !important;
         height: 100%;
         max-height: 100% !important;
     }
     
     .skillsContainer {
-        grid-column: 1 / span 1 !important;
+        grid-column: 1 / span 2 !important;
         grid-row: 2 / span 3 !important;
     }
 
     .section-blog-container {
-        grid-column: 1 / span 1 !important;
+        grid-column: 1 / span 2 !important;
         grid-row: 5 / span 3 !important;
     }
 }
