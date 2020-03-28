@@ -8,21 +8,20 @@
     margin: 0;
     box-sizing: border-box;
     font-family: var(--default-font);
+    transition: all ease-out 150ms;
 }
 
 body {
     background-color: var(--dark-bg);
-    height: 1000px;
 }
 
 .main {
     max-width: 1000px;
-    margin: 0 auto;
+    margin: auto;
     background-color: #202020;
     transform: translateY(-60px);
     padding: 60px 10px 10px 10px;
     width: 100%;
-    height: 100%;
     z-index: 1;
 }
 
@@ -37,10 +36,10 @@ body {
 
 /* Section container starts from here */
 .section-container {
-    margin: 0px 0px 0px 10px;
+    /* margin: 0px 0px 0px 0px; */
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
     grid-gap: 10px 10px;
 }
 /* Section container ends here */
@@ -53,9 +52,8 @@ body {
     padding: 10px;
     border-radius: 5px;
     background-color: #191919;
-    /* margin: 0px 10px 10px 0px; */
-    grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
 }
 
 .hire {
@@ -127,7 +125,7 @@ body {
 
 .profile-description  p{
     position: relative;
-    width: auto
+    width: auto;
     top: 10px;
     left: 10px;
     font-size: 11px;
@@ -145,8 +143,8 @@ body {
     background-color: #191919;
     border-radius: 5px;
     padding: 10px;
-    grid-column-start: 3;
-    grid-column-end: 30;
+    grid-column: 2 / span 30;
+    grid-row: 1 / span 2;
     /* margin: 0px 0px 10px 0px; */
 }
 .skillsTitle h3 {
@@ -171,9 +169,14 @@ body {
 
 .s-adobeXD .progress {
     height: 10px;
-    width: 98%;
+    width: 90%;
     background: linear-gradient(180deg, rgb(63, 250, 63), rgb(24, 85, 24));
     border-radius: 5px;
+    animation-name: axd;
+    animation-timing-function: ease-out;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 1.6s;
 }
 
 .s-adobeIllustrator span {
@@ -194,6 +197,11 @@ body {
     width: 65%;
     background: linear-gradient(180deg, rgb(63, 250, 63), rgb(24, 85, 24));
     border-radius: 5px;
+    animation-name: ai;
+    animation-timing-function: ease-out;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 1.6s;
 }
 
 .s-adobePhotoshop span {
@@ -214,6 +222,11 @@ body {
     width: 85%;
     background: linear-gradient(180deg, rgb(63, 250, 63), rgb(24, 85, 24));
     border-radius: 5px;
+    animation-name: ps;
+    animation-timing-function: ease-out;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 1.6s;
 }
 
 .s-HTML5 span {
@@ -234,6 +247,11 @@ body {
     width: 100%;
     background: linear-gradient(180deg, rgb(63, 250, 63), rgb(24, 85, 24));
     border-radius: 5px;
+    animation-name: html5;
+    animation-timing-function: ease-out;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 1.6s;
 }
 
 
@@ -252,9 +270,14 @@ body {
 
 .s-CSS3 .progress {
     height: 10px;
-    width: 95%;
+    width: 98%;
     background: linear-gradient(180deg, rgb(63, 250, 63), rgb(24, 85, 24));
     border-radius: 5px;
+    animation-name: css3;
+    animation-timing-function: ease-out;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 1.6s;
 }
 
 .s-js span {
@@ -272,9 +295,14 @@ body {
 
 .s-js .progress {
     height: 10px;
-    width: 55%;
+    width: 75%;
     background: linear-gradient(180deg, rgb(63, 250, 63), rgb(24, 85, 24));
     border-radius: 5px;
+    animation-name: js;
+    animation-timing-function: ease-out;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 1.6s;
 }
 
 .s-jQuery span {
@@ -292,9 +320,14 @@ body {
 
 .s-jQuery .progress {
     height: 10px;
-    width: 99%;
+    width: 90%;
     background: linear-gradient(180deg, rgb(63, 250, 63), rgb(24, 85, 24));
     border-radius: 5px;
+    animation-name: jquery;
+    animation-timing-function: ease-out;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 1.6s;
 }
 
 .s-PHP span {
@@ -315,8 +348,192 @@ body {
     width: 10%;
     background: linear-gradient(180deg, rgb(63, 250, 63), rgb(24, 85, 24));
     border-radius: 5px;
+    animation-name: php;
+    animation-timing-function: ease-out;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 1.6s;
 }
 
+@keyframes axd {
+    from {
+        width: 0%;
+    } to {
+        width: 90%
+    }
+}
 
+@keyframes ai {
+    from {
+        width: 0%;
+    } to {
+        width: 65%;
+    }
+}
 
+@keyframes ps {
+    from {
+        width: 0%;
+    } to {
+        width: 85%;
+    }
+}
+
+@keyframes html5 {
+    from {
+        width: 0%;
+    } to {
+        width: 100%;
+    }
+}
+
+@keyframes css3 {
+    from {
+        width: 0%;
+    } to {
+        width: 98%;
+    }
+}
+
+@keyframes js {
+    from {
+        width: 0%;
+    } to {
+        width: 75%;
+    }
+}
+
+@keyframes jquery {
+    from {
+        width: 0%;
+    } to {
+        width: 90%;
+    }
+}
+
+@keyframes php {
+    from {
+        width: 0%;
+    } to {
+        width: 10%;
+    }
+}
 /* Skills section ends here */
+
+/* section-blog-container starts from here */
+.section-blog-container {
+    padding: 10px;
+    height: 600px;
+    background-color: #191919;
+    border-radius: 5px;
+    /* margin: -20px 0px 0px 0px; */
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 3;
+    overflow-y: scroll;
+}
+
+.section-blog-container .title {
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.section-blog-container .blog-post {
+    background-color: #242424;
+    border-radius: 5px;
+    width: 100%;
+    height: 150px;
+    margin: 10px 0px;
+}
+
+.section-blog-container .blog-post img {
+    float: left;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0px 10px 0px 0px;
+}
+
+.section-blog-container .blog-post .blog-title {
+    color: #e2e2e2;
+    padding: 5px 0px 0px 0px;
+}
+
+.section-blog-container .blog-post span {
+    color: #858585;
+    font-size: 11px;
+}
+
+.section-blog-container .blog-post .blog-description {
+    font-size: 14px;
+    padding: 10px;
+    color: #a3a3a3;
+    text-align: justify;
+}
+
+.section-blog-container .blog-post .readmore {
+    color: var(--headingc);
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/* section-blog-container ends here */
+
+/* Footer section starts here */
+.footer {
+    background-color: #191919;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-title {
+    color: whitesmoke;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 10px
+}
+
+.footer ul li {
+    padding: 5px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: var(--headingc);
+}
+
+.copyright {
+    position: relative;
+    bottom: 0;
+}
+
+.copyright .made-with-love {
+    color: #858585;
+    font-size: 10px;
+}
+
+color {
+    color: red;
+}
+
+.copyright-message {
+    color: #858585;
+    font-size: 10px;
+    font-weight: 500;
+}
+/* Footer section ends here */
