@@ -40,7 +40,7 @@ body {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
-    grid-gap: 10px 10px;
+    grid-gap: 0px 10px;
 }
 /* Section container ends here */
 
@@ -54,6 +54,7 @@ body {
     background-color: #191919;
     grid-column: 1 / span 1;
     grid-row: 1 / span 1;
+    margin: 0px 0px 10px 0px !important;
 }
 
 .hire {
@@ -142,10 +143,10 @@ body {
     width: 100%;
     background-color: #191919;
     border-radius: 5px;
-    padding: 10px;
+    padding: 10px 10px 10px 10px;
     grid-column: 2 / span 30;
     grid-row: 1 / span 2;
-    /* margin: 0px 0px 10px 0px; */
+    margin: 0px 0px 10px 0px;
 }
 .skillsTitle h3 {
     max-width: 100px;
@@ -422,13 +423,13 @@ body {
 
 /* section-blog-container starts from here */
 .section-blog-container {
-    padding: 10px;
-    height: 600px;
+    padding: 10px 10px 10px 10px;
+    height: 700px;
     background-color: #191919;
     border-radius: 5px;
     /* margin: -20px 0px 0px 0px; */
     grid-column: 1 / span 1;
-    grid-row: 2 / span 3;
+    grid-row: 2 / span 6;
     overflow-y: scroll;
 }
 
@@ -482,6 +483,23 @@ body {
 }
 
 /* section-blog-container ends here */
+
+/* Advertisement-container starts from here*/
+.advertisement-container {
+    background-color: #191919;
+    padding: 10px;
+    grid-column: 2 / span 30;
+    grid-row: 3 / span 4;
+    border-radius: 5px;
+    width: 100%;
+    height: 455px;
+}
+
+.advertisement-container .a-title {
+    color: whitesmoke;
+    text-align: center;
+}
+/* Advertisement container ends here */
 
 /* Footer section starts here */
 .footer {

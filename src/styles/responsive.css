@@ -52,7 +52,11 @@
 
 }
 
-@media screen and (max-width: 880px){
+@media screen and (max-width: 900px){
+    .section-container {
+        grid-gap: 10px 10px !important;
+    }
+
     .introductionContainer {
         grid-column: 1 / span 2 !important;
         height: 100%;
@@ -62,11 +66,17 @@
     .skillsContainer {
         grid-column: 1 / span 2 !important;
         grid-row: 2 / span 3 !important;
+        margin: 0px !important;
     }
 
     .section-blog-container {
         grid-column: 1 / span 2 !important;
         grid-row: 5 / span 3 !important;
+    }
+
+    .advertisement-container {
+        grid-column: 1 / span 2 !important;
+        grid-row: 8 / span 35 !important;
     }
 }
 
@@ -135,7 +145,22 @@
         height: 50px !important;
     }
 
+    .readmore {
+        font-size: 9px !important;
+    }
+
     .main {
         padding: 38px 10px 10px 10px !important;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .blog-post .blog-description {
+        font-size: 8px !important;
+        padding: 5px !important;
+        height: 50px !important;
+    }
+    .readmore {
+        font-size: 8px !important;
     }
 }
