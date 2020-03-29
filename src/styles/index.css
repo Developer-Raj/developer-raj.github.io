@@ -427,7 +427,7 @@ body {
     height: 700px;
     background-color: #191919;
     border-radius: 5px;
-    /* margin: -20px 0px 0px 0px; */
+    margin: 10px 0px 0px 0px;
     grid-column: 1 / span 1;
     grid-row: 2 / span 6;
     overflow-y: scroll;
@@ -437,7 +437,6 @@ body {
     color: whitesmoke;
     text-align: center;
     margin-bottom: 10px;
-    z-index: 2;
 }
 
 .section-blog-container .blog-post {
