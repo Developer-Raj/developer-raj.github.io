@@ -1,5 +1,5 @@
 <!-- MarkDown Starts from here -->
-# **DEVELOPER-RAJ** ![Website-status](https://img.shields.io/badge/website-up-color?style=plastic) ![Website-Build-Version](https://img.shields.io/badge/Build-v1.0.4-brightgreen?style=plastic)
+# **DEVELOPER-RAJ** ![Website-status](https://img.shields.io/badge/website-up-color?style=plastic) ![Website-Build-Version](https://img.shields.io/badge/Build-v1.0.41-brightgreen?style=plastic)
 > **Note** - Site is still in development, if you face with any issues please tags us on here: [Issues](https://github.com/Developer-Raj/developer-raj.github.io/issues)
 
  # **Development-Timeline**
@@ -27,5 +27,6 @@
     - Added responsiveness to the website, now it is more fluidy and mobile friendly
     - Added advertisement to advertisement section, added responsiveness to it
     - Fixed new known bugs in site responsiveness, modified in code and added new css to make it more mobile friendly
+    - Make changes in SEO optimization
 ***
 

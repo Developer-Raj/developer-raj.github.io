@@ -437,6 +437,7 @@ body {
     color: whitesmoke;
     text-align: center;
     margin-bottom: 10px;
+    z-index: 2;
 }
 
 .section-blog-container .blog-post {
