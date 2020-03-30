@@ -22,7 +22,6 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: var(--headingc);
-    box-shadow: inset 0px 0px 5px 0px rgb(22, 22, 22);
+    background: linear-gradient(90deg, var(--headingc), #104210);
     border-radius: 10px;
 }

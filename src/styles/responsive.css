@@ -1,4 +1,5 @@
 @media screen and (max-width: 640px){
+
     .hamburger-menu {
         position: absolute;
         height: 50px;
@@ -52,25 +53,47 @@
 
 }
 
-@media screen and (max-width: 880px){
+@media screen and (max-width: 900px){
+    .section-container {
+        grid-gap: 10px 10px !important;
+    }
+
     .introductionContainer {
-        grid-column: 1 / span 1 !important;
+        grid-column: 1 / span 2 !important;
         height: 100%;
         max-height: 100% !important;
     }
     
     .skillsContainer {
-        grid-column: 1 / span 1 !important;
+        grid-column: 1 / span 2 !important;
         grid-row: 2 / span 3 !important;
+        margin: 0px !important;
     }
 
     .section-blog-container {
-        grid-column: 1 / span 1 !important;
+        grid-column: 1 / span 2 !important;
         grid-row: 5 / span 3 !important;
+    }
+
+    .advertisement-container {
+        grid-column: 1 / span 2 !important;
+        grid-row: 8 / span 35 !important;
+    }
+}
+
+@media screen and (max-width: 1005px) {
+    .section-blog-container {
+        margin: 0px !important;
     }
 }
 
 @media screen and (max-width: 660px) {
+
+    .main {
+        margin: -35px 0px 0px 0px !important;
+        padding: 10px 10px 10px 10px !important;
+    }
+
     .profile-name p {
         float: left;
         width: 50px;
@@ -95,6 +118,15 @@
 }
 
 @media screen and (max-width: 500px) {
+
+    .main {
+        padding: 10px 10px 10px 10px !important;
+    }
+
+    .p-title h3 {
+        font-size: 16px;
+    }
+
     .section-blog-container .blog-post {
         width: 100% !important;
         height: 100px !important;
@@ -119,9 +151,33 @@
 }
 
 @media screen and (max-width: 400px) {
+
+    .p-title h3 {
+        font-size: 12px;
+    }
+
     .blog-post .blog-description {
         font-size: 9px !important;
         padding: 5px !important;
         height: 50px !important;
+    }
+
+    .readmore {
+        font-size: 9px !important;
+    }
+
+    .main {
+        padding: 10px 10px 10px 10px !important;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .blog-post .blog-description {
+        font-size: 8px !important;
+        padding: 5px !important;
+        height: 50px !important;
+    }
+    .readmore {
+        font-size: 8px !important;
     }
 }

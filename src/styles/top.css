@@ -6,6 +6,7 @@
 .hamburger-menu {
     display: none;
     transition: all 150ms ease-out;
+    z-index: 999;
 }
 
 .github {
@@ -49,7 +50,7 @@
     width: 100%;
     background-color: var(--headingc);
     border-radius: 0px 0px 5px 5px;
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
     transition: all 150ms ease-out;
     display: flex;
     justify-content: center;
