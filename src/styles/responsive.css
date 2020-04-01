@@ -73,6 +73,11 @@
     .section-blog-container {
         grid-column: 1 / span 2 !important;
         grid-row: 5 / span 3 !important;
+        margin: 0px 0px !important;
+    }
+
+    .section-blog-container .blog-description {
+        font-size: 16px !important;
     }
 
     .advertisement-container {
@@ -81,11 +86,11 @@
     }
 }
 
-@media screen and (max-width: 1005px) {
+/* @media screen and (max-width: 1005px) {
     .section-blog-container {
-        margin: 0px !important;
+        margin: 10px  0px!important;
     }
-}
+} */
 
 @media screen and (max-width: 660px) {
 
@@ -169,6 +174,22 @@
     .main {
         padding: 10px 10px 10px 10px !important;
     }
+
+    /* Blog.css */
+    .blog-post-thumnail {
+        float: none !important;
+    }
+
+    .blog-post-thumnail {
+        height: 100% !important;
+        width: 100% !important;
+    }
+    
+    .blog-post-thumnail img{
+        height: 100% !important;
+        width: 100% !important;
+    }
+    /* Blog.css */
 }
 
 @media screen and (max-width: 330px) {
@@ -179,5 +200,65 @@
     }
     .readmore {
         font-size: 8px !important;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .pagination {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 415px) {
+    .blog-post .blog-description {
+        font-size: 9px !important;
+        padding: 5px !important;
+        height: 50px !important;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .blog-post .blog-description {
+        font-size: 8px !important;
+        padding: 5px !important;
+        height: 50px !important;
+    }
+}
+
+@media screen and (max-width: 359px) {
+    .section-live-coronavirus-report h1 {
+        font-size: 10px !important;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .section-live-coronavirus-report .live-reports {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column !important;
+    }
+
+    .c-cases {
+        margin-bottom: 10px !important;
+    }
+    .c-recovered {
+        margin-bottom: 10px !important;
+    }
+    .c-deaths {
+        margin-bottom: 10px !important;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .section-live-coronavirus-report h1 {
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .section-live-coronavirus-report h1 {
+        font-size: 16px !important;
     }
 }

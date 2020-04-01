@@ -48,7 +48,7 @@ body {
 .introductionContainer {
     width: 100%;
     height: 100%;
-    max-height: 150px;
+    /* max-height: 150px; */
     padding: 10px;
     border-radius: 5px;
     background-color: #191919;
@@ -59,8 +59,7 @@ body {
 
 .hire {
     position: absolute;
-    background-color: #1a1a1a;
-    opacity: 0%;
+    background-color: rgb(26, 26, 26, 0);
     width: 75px;
     height: 70px;
     display: flex;
@@ -70,19 +69,19 @@ body {
 }
 
 .hire:hover {
-    opacity: 90%;
+    background-color: rgb(26, 26, 26, 0.9);
 }
 
 .hire a {
     font-size: 16px;
     font-weight: bold;
     text-decoration: none;
-    color: whitesmoke;
+    color: rgb(245, 245, 245, 0);
     transition: all ease-out 150ms;
 }
 
 .hire a:hover {
-    color: var(--headingc);
+    color: rgb(37, 223, 37, 1);
     font-weight: bold;
     text-decoration: underline;
 }
@@ -129,7 +128,7 @@ body {
     width: auto;
     top: 10px;
     left: 10px;
-    font-size: 11px;
+    font-size: 11px !important;
     color: #a3a3a3;
     font-size: 11px;
     text-align: justify;
@@ -429,7 +428,7 @@ body {
     border-radius: 5px;
     margin: 10px 0px 0px 0px;
     grid-column: 1 / span 1;
-    grid-row: 2 / span 6;
+    grid-row: 2 / span 5;
     overflow-y: scroll;
 }
 
@@ -456,6 +455,7 @@ body {
     top: 0;
     bottom: 0;
     margin: 0px 10px 0px 0px;
+    border-radius: 5px;
 }
 
 .section-blog-container .blog-post .blog-title {
@@ -470,7 +470,7 @@ body {
 }
 
 .section-blog-container .blog-post .blog-description {
-    font-size: 14px;
+    font-size: 16px;
     padding: 10px;
     color: #a3a3a3;
     text-align: justify;
@@ -490,10 +490,9 @@ body {
     background-color: #191919;
     padding: 10px;
     grid-column: 2 / span 30;
-    grid-row: 3 / span 4;
+    grid-row: 3 / span 6;
     border-radius: 5px;
     width: 100%;
-    height: 455px;
     overflow-y: hidden;
 }
 
@@ -518,9 +517,9 @@ body {
     padding: 10px;
     position: relative;
     top: 10px;
+    bottom: 0;
     left: 0;
     right: 0;
-    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -530,10 +529,15 @@ body {
 }
 
 .footer-title {
+    font-size: 20px;
+    font-weight: bold;
     color: whitesmoke;
 }
 
 .footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     list-style: none;
     padding: 10px
 }
@@ -547,6 +551,18 @@ body {
     color: var(--headingc);
 }
 
+.footer ul li a i {
+    padding: 5px;
+    border-radius: 5px;
+    transition: all ease-out 150ms;
+    font-size: 20px;
+    color: #505050;
+}
+
+.footer ul li a i:hover {
+    color: var(--headingc);
+}
+
 .copyright {
     position: relative;
     bottom: 0;
@@ -555,6 +571,7 @@ body {
 .copyright .made-with-love {
     color: #858585;
     font-size: 10px;
+    transition: all ease-out 500ms;
 }
 
 color {
