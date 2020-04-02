@@ -204,10 +204,12 @@
 }
 
 @media screen and (max-width: 360px) {
-    .pagination {
+    .pagination{
         display: none;
     }
-
+    .ps-next, .ps-previous {
+        margin-bottom: 0px !important;
+    }
 }
 
 @media screen and (max-width: 415px) {

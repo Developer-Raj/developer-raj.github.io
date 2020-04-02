@@ -10,10 +10,10 @@
     --headingc: #25df25; /* Default heading color */
     --paragraphc: #f2f2f2; /* Default paragraph color */
     --default-font: "Roboto", san-serif;
+    --poppins: 'Poppins';
     --code-font: "Courier Prime", monospace; /* Fonts for code texts */
     --code-c: #069e01;
     --hover-links: #27382a;
-    --poppins: 'Poppins';
 }
 
 ::-webkit-scrollbar {

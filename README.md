@@ -1,5 +1,5 @@
 <!-- MarkDown Starts from here -->
-# **DEVELOPER-RAJ** ![Website-status](https://img.shields.io/badge/website-up-color?style=plastic) ![Website-Build-Version](https://img.shields.io/badge/Build-v1.0.43br-brightgreen?style=plastic)
+# **DEVELOPER-RAJ** ![Website-status](https://img.shields.io/badge/website-up-color?style=plastic) ![Website-Build-Version](https://img.shields.io/badge/Build-v1.0.44-brightgreen?style=plastic)
 > **Note** - Site is still in development, if you face with any issues please tags us on here: [Issues](https://github.com/Developer-Raj/developer-raj.github.io/issues)
 
  # **Development-Timeline**
@@ -12,7 +12,7 @@
     - Added hamburger menu
     - Added responsiveness to the header as well as navbar
 
-- **[17/1/2020]**&
+- **[17/1/2020]**
     - Added favicon to website
     - Make a few changes to code
 
@@ -35,5 +35,8 @@
     - Added blog to the blog page
     - Added responsiveness to the blog page
     - Added pagination option for the blog page
+- **[2/4/2020]**
+    - Fix's some of the bugs in the blog page
+    - Fix's some page responsive layout both the index and the blog page
 ***
 
