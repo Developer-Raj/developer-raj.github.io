@@ -120,6 +120,17 @@
     .github p {
         font-size: 9px;
     }
+    /* Blog CSS */
+    .live-reports .c-cases, .c-recovered, .c-deaths {
+        width: 100% !important;
+        height: 100% !important;
+        padding: 10px 15px !important
+    }
+    .live-reports .c-cases h2 {
+        /* font-size: 14px !important; */
+        text-align: center !important;
+    }
+    /* Blog CSS */
 }
 
 @media screen and (max-width: 500px) {
@@ -137,7 +148,7 @@
         height: 100px !important;
     }
 
-    .blog-post img {
+    .blog-post .post-img-container {
         width: 100px !important;
         height: 100px !important;
     }
@@ -176,11 +187,9 @@
     }
 
     /* Blog.css */
-    .blog-post-thumnail {
-        float: none !important;
-    }
 
     .blog-post-thumnail {
+        float: none !important;
         height: 100% !important;
         width: 100% !important;
     }
@@ -188,6 +197,12 @@
     .blog-post-thumnail img{
         height: 100% !important;
         width: 100% !important;
+    }
+
+    .blog-post-thumnail .wifed-img {
+        height: 75px;
+        width: 100%;
+        transform: translateX(0px) !important;
     }
     /* Blog.css */
 }

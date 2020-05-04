@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Primary Meta Tags -->
+    <title>Icon Tester</title>
+    <meta name="title" content="Icon Tester">
+    <meta name="description" content="Icon Tester, test your app icons in different sizes.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://developer-raj.github.io/apps/IconTester/index.html">
+    <meta property="og:title" content="Icon Tester">
+    <meta property="og:description" content="Icon Tester, test your app icons in different sizes.">
+    <meta property="og:image" content="/apps/IconTester/assets/images/icon.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://developer-raj.github.io/apps/IconTester/index.html">
+    <meta property="twitter:title" content="Icon Tester">
+    <meta property="twitter:description" content="Icon Tester, test your app icons in different sizes.">
+    <meta property="twitter:image" content="/apps/IconTester/assets/images/icon.png">
+
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="siteLogo">
+               <a href="index.html">
+                <img src="./assets/images/icon.png" alt="Icon Logo">
+                <span>TESTER</span>
+               </a>
+            </div>
+            <!-- <div class="navList">
+                <ul>
+                    <li><a href="#"><span></span> Home</a></li>
+                    <li><a href="#"><span></span>About</a></li>
+                    <li><a href="#"><span></span>More <i class="fas fa-chevron-down"></i></a></li>
+                </ul>
+            </div> -->
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <div class="floated_upButton">
+                <div class="imageUpload">
+                    <!-- <img src="./assets/images/clicktoaddimage.jpg" alt="click to add image" class="imageFile"> -->
+                    <i id="uploadImgBtn" class="fas fa-plus">
+                        <span class="upfMessage">Click To Add Image<span class="upfMessage_clip"></span></span>
+                    </i>
+                    
+                    <div style="height: 0px;width: 0px; overflow: hidden;"><input type="file" class="upfile" accept="image/*"></div>
+                </div>
+            </div>
+            <div class="sizeToggleBtn">
+                <div class="base">
+                    <div class="switch"></div>
+                </div>
+            </div>
+
+            <div class="androidIcons">
+                <div class="device_title"><i class="fab fa-android" style="color: rgb(88, 209, 88); display: block;"></i> Android</div>
+
+                <div class="app_icon_size">
+                    <span class="icon-type">Android app icons</span>
+                    <div class="row">
+                        <div class="col">
+                            <a href="./assets/images/icon.png" class="icon_holder" target="_blank">
+                                <img src="./assets/images/icon.png" alt="ldpi" class="icons tglClass">
+                            </a>
+                            <span class="dpi">ldpi</span>
+                            <span class="size">36x36</span>
+                            <span class="dpi-level">~120dpi</span>
+                        </div>
+                        <div class="col">
+                            <a href="./assets/images/icon.png" class="icon_holder" target="_blank">
+                                <img src="./assets/images/icon.png" alt="ldpi" class="icons tglClass">
+                            </a>
+                            <span class="dpi">mdpi</span>
+                            <span class="size">48x48</span>
+                            <span class="dpi-level">~160dpi</span>
+                        </div>
+                        <div class="col">
+                            <a href="./assets/images/icon.png" class="icon_holder" target="_blank">
+                                <img src="./assets/images/icon.png" alt="ldpi" class="icons tglClass">
+                            </a>
+                            <span class="dpi">hdpi</span>
+                            <span class="size">72x72</span>
+                            <span class="dpi-level">~240dpi</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <a href="./assets/images/icon.png" class="icon_holder" target="_blank">
+                                <img src="./assets/images/icon.png" alt="ldpi" class="icons tglClass">
+                            </a>
+                            <span class="dpi">x</span>
+                            <span class="size">96x96</span>
+                            <span class="dpi-level">~320dpi</span>
+                        </div>
+                        <div class="col">
+                            <a href="./assets/images/icon.png" class="icon_holder" target="_blank">
+                                <img src="./assets/images/icon.png" alt="ldpi" class="icons tglClass">
+                            </a>
+                            <span class="dpi">xx</span>
+                            <span class="size">144x144</span>
+                            <span class="dpi-level">~480dpi</span>
+                        </div>
+                        <div class="col">
+                            <a href="./assets/images/icon.png" class="icon_holder" target="_blank">
+                                <img src="./assets/images/icon.png" alt="ldpi" class="icons tglClass">
+                            </a>
+                            <span class="dpi">xxx</span>
+                            <span class="size">196x196</span>
+                            <span class="dpi-level">~640dpi</span>
+                        </div>
+                    </div>
+                    <span class="icon-type">Google Play icons </span>
+                    <div class="row">
+                        <div class="col">
+                            <a href="./assets/images/icon.png" class="icon_holder" target="_blank">
+                                <img src="./assets/images/icon.png" alt="google play icon" class="icons  play_icon">
+                            </a>
+                            <span class="dpi">icon-512</span>
+                            <span class="size">512x512</span>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+
+            </div>
+
+        </div>
+    </main>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>

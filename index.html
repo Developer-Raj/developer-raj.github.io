@@ -22,21 +22,41 @@
     </script>
     <!-- End Google Tag Manager -->
     
+    <!-- Meta viewport and charset -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Raj Ghosh a Front-End Developer with over 4 years of experience. Specialised in Front-end development & frameworks with extensive knowledge in Web Designing.">
-    <meta name="keywords" content="Raj Ghosh, raj ghosh, Front-end developer, front-end developer, front-end development, developer, developer-raj, web-designer, web-designing, raj ghosh front end developer, raj ghosh, developer-raj github, raj gh, raj ghosh dev, developer, dev-raj, dev raj, 5 steps to prevent coronavirus, steps to prevent coronavirus">
-    <meta name="author" content="Developer-Raj">
     
+    <!-- Primary Meta Tags -->
     <title>Raj Ghosh - Front-End Developer</title>
+    <meta name="title" content="Raj Ghosh - Front-End Developer">
+    <meta name="description" content="Raj Ghosh a Front-End Developer with over 4 years of experience. Specialized in Front-end development & frameworks with extensive knowledge in Web Designing.">
+    <meta name="keywords" content="Raj Ghosh, raj ghosh, Front-End Developer, front-end developer, front-end development, Front-End Development, Web Desiging">
+    <meta name="author" content="Developer-Raj">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://developer-raj.github.io/">
+    <meta property="og:title" content="Raj Ghosh - Front-End Developer">
+    <meta property="og:description" content="Raj Ghosh a Front-End Developer with over 4 years of experience. Specialized in Front-end development & frameworks with extensive knowledge in Web Designing.">
+    <meta property="og:image" content="/src/assets/mine2.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:site" content="https://twitter.com/Raj_Ghosh2">
+    <meta property="twitter:url" content="https://developer-raj.github.io/">
+    <meta property="twitter:title" content="Raj Ghosh - Front-End Developer">
+    <meta property="twitter:description" content="Raj Ghosh a Front-End Developer with over 4 years of experience. Specialized in Front-end development & frameworks with extensive knowledge in Web Designing.">
+    <meta property="twitter:image" content="/src/assets/mine2.png">
     
+    <!-- stylesheet link -->
     <link rel=canonical href="https://developer-raj.github.io">
-    <link rel=canonical href="https://developer-raj.github.io/index.html">
     <link rel="shortcut icon" type="image/png" sizes="96x96" href="./src/assets/DR96x96.png">
     <link rel="stylesheet" href="./src/styles/index.css">
-    <script src="https://kit.fontawesome.com/93bfa74b0a.js" crossorigin="anonymous"></script>
-    <script src="./src/scripts/index.js" async></script>
+    <link rel="stylesheet" href="./src/styles/contact.css">
+    <link rel="stylesheet" href="./src/styles/all.css" type="text/css">
+    <!-- <script src="https://kit.fontawesome.com/ee8c9f85e9.js" crossorigin="anonymous"></script> -->
+    <script src="./src/scripts/selector.js" async></script>
     <!-- <script data-ad-client="ca-pub-2558230041994349" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
 </head>
 
@@ -72,11 +92,31 @@
                 <li><a href="./page/blog.html" class="b">Blog</a></li>
                 <li><a href="./page/tutorials.html" class="t">Tutorials</a></li>
                 <li><a href="./page/portfolio.html" class="p">Portfolio</a></li>
-                <li><a href="mailto:raajjj.gh@gmail.com" class="c">Contact</a></li>
+                <li><a href="#" class="c contact">Contact</a></li>
             </ul>
         </div>
     </div>
     <!-- Top section ends here -->
+
+    <!-- Contact section -->
+    <div class="contact-form">
+        <form>
+            <span>Contact <i class="fas fa-times"></i></span>
+            <label for="name">
+                Name <br> <input type="text" name="name" required autocomplete="off">
+            </label>
+            <label for="email">
+                Email <br> <input type="email" name="email" required autocomplete="off">
+            </label>
+            <label for="message">
+                Message <br> <textarea name="message" id="mssgBox" required style="resize: none;"></textarea>
+            </label>
+            <label for="submit">
+                <input type="submit" id="form-submit">
+            </label>
+        </form>
+    </div>
+    <!-- Contact Section -->
 
     <!-- Main section starts here -->
     <div class="main">
@@ -163,69 +203,33 @@
             <div class="section-blog-container"> <!-- Section blog container -->
                 <h3 class="title">LATEST BLOGS</h3>
 
-                <div class="blog-post"> <!-- Blog post -->
-                    <img src="./src/assets/coronavirus.jpg" alt="blog-thumnail" class="blogpost-img">
-                    <h1 class="blog-title">5 Steps To Prevent CoronaVirus <span>1/4/2020</span></h1>
+                <!-- Blog post -->
+                <div class="blog-post">
+                    <div class="post-img-container">
+                        <img src="./src/assets/coronavirus.jpg" alt="coronavirus" class="blogpost-img">
+                    </div>
+                    <h2 class="blog-title">5 Steps To Prevent CoronaVirus <span>1/4/2020</span></h1>
                     
                     <p class="blog-description">
                         coronavirus (COVID-19) outbreak spread all over the world, currently there is no cure to prevent coronavirus, but here are the 5 steps to prevent coronavirus from spreading. <a href="./page/blog.html" class="readmore">Read more</a>
                     </p>
-                </div> <!-- Blog Post -->
+                </div> 
+                <!-- Blog Post -->
 
-                <div class="blog-post"> <!-- Blog post -->
-                    <img src="./src/assets/150x150.png" alt="blog-thumnail" class="blogpost-img">
-                    <h1 class="blog-title">BLOG HEADING <span>27/3/2020</span></h1>
+                <!-- Blog post -->
+                <div class="blog-post"> 
+                   <div class="post-img-container">
+                    <img src="./src/assets/Blog_Front-End-Dev.jpeg" alt="front-end developer" class="blogpost-img">
+                   </div>
+                    <h2 class="blog-title">What is Front-End Development <span>2/4/2020</span></h1>
                     
                     
 
                     <p class="blog-description">
-                        Blog description to provide information to actually click on the content and to view the blog that way you need to give a proper blog description to actually people know what they are going to read about the content your wrote. <a href="#" class="readmore">Read more</a>
+                        Front-End Development is the development of a website that web designer designs for it, in-short front-end development is the process of turning a web-design into a client-side website. <a href="./page/blogs/what-is-front-end-development.html" class="readmore">Read more</a>
                     </p>
-                </div> <!-- Blog post -->
-
-                <div class="blog-post"> <!-- Blog post -->
-                    <img src="./src/assets/150x150.png" alt="blog-thumnail" class="blogpost-img">
-                    <h1 class="blog-title">BLOG HEADING <span>27/3/2020</span></h1>
-                    
-                    
-
-                    <p class="blog-description">
-                        Blog description to provide information to actually click on the content and to view the blog that way you need to give a proper blog description to actually people know what they are going to read about the content your wrote. <a href="#" class="readmore">Read more</a>
-                    </p>
-                </div> <!-- Blog post -->
-
-                <div class="blog-post"> <!-- Blog post -->
-                    <img src="./src/assets/150x150.png" alt="blog-thumnail" class="blogpost-img">
-                    <h1 class="blog-title">BLOG HEADING <span>27/3/2020</span></h1>
-                    
-                    
-
-                    <p class="blog-description">
-                        Blog description to provide information to actually click on the content and to view the blog that way you need to give a proper blog description to actually people know what they are going to read about the content your wrote. <a href="#" class="readmore">Read more</a>
-                    </p>
-                </div> <!-- Blog post -->
-
-                <div class="blog-post"> <!-- Blog post -->
-                    <img src="./src/assets/150x150.png" alt="blog-thumnail" class="blogpost-img">
-                    <h1 class="blog-title">BLOG HEADING <span>27/3/2020</span></h1>
-                    
-                    
-
-                    <p class="blog-description">
-                        Blog description to provide information to actually click on the content and to view the blog that way you need to give a proper blog description to actually people know what they are going to read about the content your wrote. <a href="#" class="readmore">Read more</a>
-                    </p>
-                </div> <!-- Blog post -->
-
-                <div class="blog-post"> <!-- Blog post -->
-                    <img src="./src/assets/150x150.png" alt="blog-thumnail" class="blogpost-img">
-                    <h1 class="blog-title">BLOG HEADING <span>27/3/2020</span></h1>
-                    
-                    
-
-                    <p class="blog-description">
-                        Blog description to provide information to actually click on the content and to view the blog that way you need to give a proper blog description to actually people know what they are going to read about the content your wrote. <a href="#" class="readmore">Read more</a>
-                    </p>
-                </div> <!-- Blog post -->
+                </div> 
+                <!-- Blog post -->
                 
             </div> <!-- Section blog container -->
 
@@ -234,119 +238,6 @@
 
                 <!-- ADS -->
 
-                <!-- <div class="ads-container">
-                    <amp-ad
-                        layout="fixed"
-                        width="270"
-                        height="50"
-                        type="adsense"
-                        data-ad-client="ca-pub-2558230041994349"
-                        data-ad-slot="4720474215">
-                    </amp-ad>
-
-                    <ins class="adsbygoogle"
-                        style="display:inline-block;width:270px;height:50px"
-                        data-ad-client="ca-pub-2558230041994349"
-                        data-ad-slot="4720474215"></ins>
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                </div>
-
-                <div class="ads-container">
-                    <amp-ad
-                        layout="fixed"
-                        width="270"
-                        height="50"
-                        type="adsense"
-                        data-ad-client="ca-pub-2558230041994349"
-                        data-ad-slot="4720474215">
-                    </amp-ad>
-
-                    <ins class="adsbygoogle"
-                        style="display:inline-block;width:270px;height:50px"
-                        data-ad-client="ca-pub-2558230041994349"
-                        data-ad-slot="4720474215"></ins>
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                </div>
-
-                <div class="ads-container">
-                    <amp-ad
-                        layout="fixed"
-                        width="270"
-                        height="50"
-                        type="adsense"
-                        data-ad-client="ca-pub-2558230041994349"
-                        data-ad-slot="4720474215">
-                    </amp-ad>
-
-                    <ins class="adsbygoogle"
-                        style="display:inline-block;width:270px;height:50px"
-                        data-ad-client="ca-pub-2558230041994349"
-                        data-ad-slot="4720474215"></ins>
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                </div>
-
-                <div class="ads-container">
-                    <amp-ad
-                        layout="fixed"
-                        width="270"
-                        height="50"
-                        type="adsense"
-                        data-ad-client="ca-pub-2558230041994349"
-                        data-ad-slot="4720474215">
-                    </amp-ad>
-
-                    <ins class="adsbygoogle"
-                        style="display:inline-block;width:270px;height:50px"
-                        data-ad-client="ca-pub-2558230041994349"
-                        data-ad-slot="4720474215"></ins>
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                </div>
-
-                <div class="ads-container">
-                    <amp-ad
-                        layout="fixed"
-                        width="270"
-                        height="50"
-                        type="adsense"
-                        data-ad-client="ca-pub-2558230041994349"
-                        data-ad-slot="4720474215">
-                    </amp-ad>
-
-                    <ins class="adsbygoogle"
-                        style="display:inline-block;width:270px;height:50px"
-                        data-ad-client="ca-pub-2558230041994349"
-                        data-ad-slot="4720474215"></ins>
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                </div>
-
-                <div class="ads-container">
-                    <amp-ad
-                        layout="fixed"
-                        width="270"
-                        height="50"
-                        type="adsense"
-                        data-ad-client="ca-pub-2558230041994349"
-                        data-ad-slot="4720474215">
-                    </amp-ad>
-
-                    <ins class="adsbygoogle"
-                        style="display:inline-block;width:270px;height:50px"
-                        data-ad-client="ca-pub-2558230041994349"
-                        data-ad-slot="4720474215"></ins>
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                </div> -->
                 <!-- ADS -->
 
             </div> <!-- Advertisement Container -->
@@ -359,7 +250,7 @@
                     <li><a href="https://twitter.com/Raj_Ghosh2" target="_blank"><i class="fab fa-twitter"></i></a></li>
                     <li><a href="https://github.com/Developer-Raj" target="_blank"><i class="fab fa-github"></i></a></li>
                     <li><a href="https://www.instagram.com/developer_raj3/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="https://www.behance.net/RajGhosh3/" target="_blank"><i class="fab fa-behance"></i></a></li>
+                    <li><a href="https://www.behance.net/RajGhosh/" target="_blank"><i class="fab fa-behance"></i></a></li>
                 </ul>
                 <div class="copyright">
                     <p class="made-with-love">Made with <color><i class="fas fa-heart"></i></color></p>
@@ -374,6 +265,7 @@
 <!-- body starts ends here -->
 
     <script src="./src/scripts/index.js"></script>
+    <script src="./src/scripts/contact.js"></script>
     <script src="./src/scripts/syntax-highlighting.js"></script>
     <script src="./src/scripts/hamburger-menu.js"></script>
 </body>

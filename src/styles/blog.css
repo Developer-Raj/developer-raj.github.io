@@ -53,8 +53,8 @@ body {
     background-color: #191919;
     border-radius: 5px;
     padding: 10px 10px 10px 10px;
-    height: 850px;
-    overflow-y: scroll;
+    /* height: 850px; */
+    /* overflow-y: scroll; */
 }
 
 .blog-section::-webkit-scrollbar {
@@ -88,12 +88,24 @@ body {
     list-style: none;
     color: #c7c7c7;
     margin-bottom: 10px;
+    border-left: 5px solid var(--headingc);
+    box-shadow: 0px 0px 15px 0px #0e0e0e;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .blog-post ul li {
     /* font-family: var(--poppins); */
     text-align: justify;
-    margin: 5px;
+    margin: 10px;
+}
+
+.blog-post ul li a {
+    color: #c7c7c7;
+}
+
+.blog-post p a {
+    color: #c7c7c7;
 }
 
 .blog-post ul li em {
@@ -108,10 +120,17 @@ body {
     border-radius: 5px;
     float: left;
     margin: 0px 10px 0px 0px;
+    border-radius: 5px;
 }
 
 .blog-post-thumnail img {
     height: 75px;
+    border-radius: 5px;
+}
+
+.blog-post-thumnail .wifed-img {
+    height: 75px;
+    /* transform: translateX(-18px); */
 }
 
 .blog-post-title {
@@ -260,13 +279,22 @@ body {
 
 .pagination-section button {
     cursor: pointer;
+    background: none;
+    overflow: hidden;
     outline: none;
     margin: 0 10px;
     border: none;
     padding: 5px 10px;
     border-radius: 3px;
-    background-color: var(--headingc);
-    color: var(--hover-links);
+    transition: 150ms ease-out all;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pagination-section button a {
+    text-decoration: none;
+    color: var(--headingc);
 }
 
 .pagination-section ul {
@@ -282,15 +310,22 @@ body {
 }
 
 .pagination-section ul li a {
-    padding: 5px;
+    padding: 0px 5px;
+    font-size: 12px;
     border-radius: 3px;
     text-decoration: none;
     color: var(--headingc);
+    line-height: 15px;
 }
 
 .current-page {
-    border: 2px solid var(--headingc);
     border-radius: 3px;
+    line-height: 15px;
+    background-color: var(--headingc);
+}
+
+.current-page a {
+    color: var(--hover-links) !important;
 }
 /* Pagination section ends from here */
 

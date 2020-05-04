@@ -1,0 +1,294 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "nexa-bold";
+    src: url("/apps/IconTester/assets/fonts/Nexa-Bold.otf");
+}
+@font-face {
+    font-family: "nexa-light";
+    src: url("/apps/IconTester/assets/fonts/Nexa-Light.otf");
+}
+@font-face {
+    font-family: "poppins";
+    src: url("/apps/IconTester/assets/fonts/Poppins-Regular.ttf");
+}
+body{
+ background-color: #f1f1f1;
+}
+
+/* Header */
+header{
+    user-select: none;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    border-bottom: 1px solid #d4d4d4;
+    padding: 0px 20px;
+    z-index: 999;
+}
+.container {
+    max-width: 1000px;
+    height: 80px;
+    margin: 0 auto;
+}
+.siteLogo {
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    /* float: left; */
+}
+.siteLogo img {
+    margin: 15px 0px;
+    width: 50px;
+    height: 50px;
+}
+.siteLogo span {
+    font-family: 'nexa-bold';
+    color: #313030;
+    position: absolute;
+    line-height: 80px;
+    margin: 0px 10px;
+}
+.navList {
+    float: right;
+}
+.navList ul {
+    list-style: none;
+}
+.navList ul li {
+    display: inline-block;
+    margin: 0px 5px;
+    height: fit-content;
+}
+.navList ul li a {
+    position: relative;
+    font-family: 'nexa-light';
+    text-decoration: none;
+    color: #313030;
+    line-height: 80px;
+    padding: 5px 10px;
+    transition: all ease-out 150ms;
+    z-index: 99;
+}
+.navList ul li a:hover {
+    color: white;
+}
+.navList ul li a span {
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    background-color: rgb(49, 48, 48, 0);
+    z-index: -1;
+    left: 0;
+    top: 50%;
+    transition: all ease-out 120ms;
+    transform: translateY(-50%);
+}
+.navList ul li a:hover span{
+     height: 100%;
+     background-color: rgb(49, 48, 48);
+}
+/* Header */
+
+/* Main */
+main {
+    position: relative;
+    top: 80px;
+    padding: 0px 20px;
+}
+.floated_upButton {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+/* .floated_upButton img{
+    border-radius: 50%;
+    height: 80px;
+} */
+.imageUpload #uploadImgBtn {
+    background-color: #313030;
+    color: white;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 0px #888888;
+    z-index: 1;
+    cursor: pointer;
+    transition: all ease-out 150ms;
+}
+.imageUpload .upfMessage {
+    position: fixed;
+    font-size: 16px !important;
+    font-family: nexa-light;
+    text-transform: capitalize;
+    background-color: white;
+    right: 20px;
+    bottom: 20px;
+    padding: 0px 0px;
+    line-height: 50px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    /* overflow: hidden; */
+    transition: all ease-out 150ms;
+    user-select: none;
+    cursor: pointer;
+    z-index: -1;
+    opacity: 100;
+}
+.imageUpload #uploadImgBtn:hover .upfMessage {
+    opacity: 100%;
+    right: 100px;
+    border-radius: 10px 0px 0px 10px;
+    color: black;
+    width: 200px;
+    z-index: -1;
+    box-shadow: 0px 0px 10px #9c9c9c;
+}
+.imageUpload .upfMessage .upfMessage_clip {
+    display: inline-block;
+    position: absolute;
+    right: -20px;
+    width: 20px;
+    height: 50px;
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
+    /* clip-path: polygon(0 0, 80% 0, 100% 50%, 80% 100%, 0 100%); */
+    background-color: #ffffff;
+}
+.sizeToggleBtn {
+    position: fixed;
+    right: 20px;
+    bottom: 90px;
+    background-color: white;
+    color: #313030;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.13);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sizeToggleBtn .base {
+    position: relative;
+    width: 35px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: #313030;
+    transition: all ease-out 150ms;
+}
+.sizeToggleBtn .switch {
+    height: 16px;
+    width: 16px;
+    background-color: white;
+    border-radius: 50px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    bottom: 2px;
+    transition: all ease-out 150ms;
+}
+/* Android Section */
+.androidIcons {
+    /* background-color: #272727; */
+    padding: 10px;
+}
+.androidIcons .device_title{
+    /* background-color: #313030; */
+    font-family: 'nexa-bold';
+    font-size: 36px;
+    text-align: center;
+    margin: 0px 0px 50px 0px;
+}
+.app_icon_size .icon-type{
+    display: block;
+    text-align: center;
+    font-family: 'nexa-light';
+}
+.dpi {
+    font-family: 'nexa-bold';
+    color: #414141;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.size {
+    font-family: 'nexa-light';
+    color: #414141;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.dpi-level {
+    font-family: 'nexa-light';
+    color: #686868;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    border-radius: 5px;
+    margin: 10px 0px;
+    height: 72px;
+    width: 72px;
+    box-shadow: 0px 0px 10px rgb(82, 82, 82) !important;
+    transition: all ease-out 150ms !important;
+}
+.play_icon {
+    width: 100px;
+    height: 100px;
+}
+.ic36 {
+    width: 36px;
+    height: 36px;
+    border-radius: 5px;
+    
+}
+.ic48 {
+    width: 48px;
+    height: 48px;
+    border-radius: 5px;
+}
+.ic72 {
+    width: 72px;
+    height: 72px;
+    border-radius: 5px;
+}
+.ic96 {
+    width: 48px;
+    height: 48px;
+    border-radius: 5px;
+}
+.ic144 {
+    width: 72px;
+    height: 72px;
+    border-radius: 5px;
+}
+.ic196 {
+    width: 98px;
+    height: 98px;
+    border-radius: 5px;
+}
+/* Android Section */
+/* Main */

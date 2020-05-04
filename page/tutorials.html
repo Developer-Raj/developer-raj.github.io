@@ -6,10 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="We're going to cover you some of the basic of HTML, CSS3, Js, jQuery and python to get you on the road of coding">
     <meta name="keyword" content="Learn to code, learn to programming, learn programming, Learn HTML, Learn CSS3, Learn Js, Learn jQuery, Learn Python, Learn to code with Developer-Raj">
+    <title>Learn Programming with HTML, CSS3, , JavaScript, jQuery and Python | Developer-Raj</title>
+
     <link rel="stylesheet" href="/src/styles/tutorials.css">
     <link rel="icon" type="image/png" sizes="16x16" href="/src/assets/DR.png">
-    <script src="https://kit.fontawesome.com/93bfa74b0a.js" crossorigin="anonymous"></script>
-    <title>Learn Programming with HTML, CSS3, , JavaScript, jQuery and Python | Developer-Raj</title>
+    <link rel="stylesheet" href="/src/styles/all.css" type="text/css">
+    <link rel="stylesheet" href="/src/styles/contact.css">
+    <!-- <script src="https://kit.fontawesome.com/ee8c9f85e9.js" crossorigin="anonymous"></script> -->
+    <script src="/src/scripts/selector.js" async></script>
 </head>
 <body>
     
@@ -34,21 +38,61 @@
                 <li><a href="/page/blog.html" class="b">Blog</a></li>
                 <li><a href="/page/tutorials.html" class="t">Tutorials</a></li>   
                 <li><a href="/page/portfolio.html" class="p">Portfolio</a></li>
-                <li><a href="/page/contact.html" class="c">Contact</a></li>
+                <li><a href="#" class="c contact">Contact</a></li>
             </ul>
         </div>
     </div>
     <!-- Top section ends here -->
 
+    <!-- Contact section -->
+    <div class="contact-form">
+        <form action="">
+            <span>Contact <i class="fas fa-times"></i></span>
+            <label for="name">
+                Name <br> <input type="text" name="name" required autocomplete="off">
+            </label>
+            <label for="email">
+                Email <br> <input type="email" name="email" required autocomplete="off">
+            </label>
+            <label for="message">
+                Message <br> <textarea name="message" id="mssgBox" required style="resize: none;"></textarea>
+            </label>
+            <label for="submit">
+                <input type="submit" id="form-submit">
+            </label>
+        </form>
+    </div>
+    <!-- Contact Section -->
+
     <!-- Main section starts here -->
     <div class="main">
+        <div class="development-message">
+            <i class="fas fa-exclamation"></i>
+            <p>Site is still in development process. Stay Tuned!</p>
+        </div>
 
+        <div class="footer"> <!-- Footer starts here -->
+            <span class="footer-title">FOLLOW ME ON</span>
+                <ul>
+                    <li><a href="https://twitter.com/Raj_Ghosh2" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://github.com/Developer-Raj" rel="noopener" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.instagram.com/developer_raj3/" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.behance.net/RajGhosh/" target="_blank" rel="noopener"><i class="fab fa-behance"></i></a></li>
+                </ul>
+                <div class="copyright">
+                    <p class="made-with-love">Made with <color><i class="fas fa-heart"></i></color></p>
+                    <p class="copyright-message">
+                        Copyright<sup>&copy;</sup>2020
+                    </p>
+                </div>
+        </div> <!-- footer ends here -->
     </div>
     <!-- Main section ends here -->
 
     <!-- body starts ends here -->
     
     <script src="/src/scripts/index.js"></script>
+    <script src="/src/scripts/contact.js"></script>
     <script src="/src/scripts/syntax-highlighting.js"></script>
     <script src="/src/scripts/hamburger-menu.js"></script>
 </body>
