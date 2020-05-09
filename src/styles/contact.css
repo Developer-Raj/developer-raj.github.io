@@ -40,7 +40,9 @@
 }
 
 .contact-form form span i {
-    float: right;
+    position: absolute;
+    top: 12px;
+    right: 15px;
     color: #363535;
     cursor: pointer;
 }

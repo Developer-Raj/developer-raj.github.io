@@ -205,6 +205,20 @@
         transform: translateX(0px) !important;
     }
     /* Blog.css */
+
+    /* Contact.css */
+    .contact-form form {
+        width: 100% !important;
+        height: 100% !important;
+        border-radius: 0px !important;
+    }
+    .contact-form form span {
+        margin: 0px 0px 70px 0px !important;
+    }
+    .contact-form form label {
+        max-width: 90% !important;
+    }
+    /* Contact.css */
 }
 
 @media screen and (max-width: 330px) {
